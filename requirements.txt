@@ -1,0 +1,13 @@
+# Minimal requirements for Python notebooks in this repo
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+scipy
+statsmodels
+pillow
+jupyterlab
+ipykernel
+tensorflow
+keras
