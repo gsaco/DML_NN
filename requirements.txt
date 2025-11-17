@@ -1,13 +1,61 @@
-# Minimal requirements for Python notebooks in this repo
-numpy
-pandas
-scikit-learn
-matplotlib
-seaborn
-scipy
-statsmodels
-pillow
-jupyterlab
-ipykernel
-tensorflow
-keras
+# ============================================
+# PYTHON DEPENDENCIES
+# ============================================
+# Install with: pip install -r requirements.txt
+
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+scipy>=1.10.0
+statsmodels>=0.14.0
+pillow>=10.0.0
+jupyterlab>=4.0.0
+ipykernel>=6.25.0
+tensorflow>=2.13.0
+keras>=2.13.0
+
+# ============================================
+# R DEPENDENCIES
+# ============================================
+# Install in R console with:
+# install.packages(c("tidyverse", "keras3", "glmnet", "randomForest", "caret", "gridExtra"))
+
+# Core packages
+# - tidyverse (>= 2.0.0)     # Data manipulation and visualization
+# - dplyr (>= 1.1.0)         # Data wrangling
+# - ggplot2 (>= 3.4.0)       # Plotting
+# - readr (>= 2.1.0)         # Reading CSV files
+
+# Machine Learning
+# - keras3 (>= 0.1.0)        # Neural networks interface
+# - glmnet (>= 4.1-7)        # Lasso and elastic net
+# - randomForest (>= 4.7-1)  # Random forest algorithm
+# - caret (>= 6.0-94)        # ML framework
+
+# Visualization
+# - gridExtra (>= 2.3)       # Arranging multiple plots
+
+# ============================================
+# JULIA DEPENDENCIES
+# ============================================
+# Install in Julia REPL with:
+# using Pkg
+# Pkg.add(["DataFrames", "CSV", "GLM", "MLJ", "MLJLinearModels", "MLJDecisionTreeInterface", "Plots", "StatsBase", "Random", "Distributions"])
+
+# Core packages
+# - DataFrames (>= 1.6)      # Data manipulation
+# - CSV (>= 0.10)            # Reading CSV files
+# - StatsBase (>= 0.34)      # Statistical functions
+# - Random                    # Random number generation
+# - Distributions (>= 0.25)  # Probability distributions
+
+# Machine Learning
+# - MLJ (>= 0.19)            # Machine Learning framework
+# - MLJLinearModels          # Linear models (Lasso, Ridge)
+# - MLJDecisionTreeInterface # Decision trees and Random Forest
+# - GLM (>= 1.9)             # Generalized Linear Models
+
+# Visualization
+# - Plots (>= 1.39)          # Plotting library
