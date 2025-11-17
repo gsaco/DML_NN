@@ -266,7 +266,7 @@ All results are saved in respective `output/` folders:
 
 ## 👥 Contributors
 
-**Group 1** - Advanced Econometrics Course
+**Group 1** 
 
 ---
 
